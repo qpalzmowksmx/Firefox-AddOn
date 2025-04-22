@@ -1,15 +1,22 @@
 # Firefox-AddOn
 
 구조
-firefox-tab-organizer/
-├── manifest.json           # 확장 프로그램 메타데이터
-├── background/
-│   └── background.py      # 백그라운드 스크립트
-├── popup/
-│   ├── popup.html         # 팝업 UI
-│   └── popup.js           # 팝업 로직
-└── icons/                 # 아이콘 파일들
+├── background
+│   └── background.js
+├── icons
+│   ├── icon_48x48.png
+│   └── icon_96x96.png
+├── LICENSE
+├── main.py
+├── manifest.json
+├── popup
+│   ├── popup.css
+│   ├── popup.html
+│   └── popup.js
+└── README.md
 
 # 사용한 라이브러리
 from urllib.parse import urlparse  # URL 파싱
 import browser  # Firefox 브라우저 API
+
+# 계속 수정중
