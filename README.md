@@ -29,8 +29,7 @@ import browser  # Firefox 브라우저 API
     Firefox 애드온 스토어 배포(되려나)
 
 주의사항:
-
-    Firefox의 보안 정책 준수
-    필요한 권한 설정
-    사용자 데이터 보호
-    성능 최적화
+     Firefox의 보안 정책 준수
+     필요한 권한 설정
+     사용자 데이터 보호
+     성능 최적화
