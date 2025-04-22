@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Tab Organizer",
+    "version": "1.0.0",
+    "description": "도메인별로 탭을 자동 정리해주는 확장 프로그램",
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+    "permissions": [
+      "tabs",
+      "tabGroups"
+    ],
+    "browser_action": {
+      "default_icon": "icons/icon-48.png",
+      "default_popup": "popup/popup.html"
+    }
+  }
